@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_professionalherokuprogramming_javaspringexample_domain_Employee" items="${employees}" z="SZ2R4YmR+/+OBx/dDq8WNO1/U+w=">
+        <table:table data="${employees}" id="l_com_professionalherokuprogramming_javaspringexample_domain_Employee" path="/employees" typeIdFieldName="id_" z="yEvX8S3WOOH6iwfiJEEdXsGaeLA=">
+            <table:column id="c_com_professionalherokuprogramming_javaspringexample_domain_Employee_id" property="id" z="wdY6/G0UREGKVZAZcMWuGRiYglw="/>
+            <table:column id="c_com_professionalherokuprogramming_javaspringexample_domain_Employee_name" property="name" z="IkBGA6w2t0YgUIjv7At6KkFs9jg="/>
+            <table:column id="c_com_professionalherokuprogramming_javaspringexample_domain_Employee_email" property="email" z="gqBOeL4022l9xh9MpGKkSIOjcgU="/>
+        </table:table>
+    </page:list>
+</div>
